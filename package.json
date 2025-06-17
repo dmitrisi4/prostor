@@ -1,0 +1,30 @@
+{
+  "name": "prostor",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "turbo": "^2.5.4",
+    "typescript": "5.8.2",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@1.22.10",
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "Платформа Простор - социальная платформа для обмена контентом",
+  "version": "0.1.0",
+  "main": "index.js",
+  "keywords": ["prostor", "content", "sharing", "platform"],
+  "author": "",
+  "license": "ISC"
+}
